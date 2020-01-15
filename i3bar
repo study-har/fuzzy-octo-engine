@@ -1,0 +1,11 @@
+bar {
+        font pango:monospace 10
+        position top
+        status_command ~/.config/i3/bumblebee-status/bumblebee-status -m network_traffic cpu memory disk:home pasink pasource date time -p home.path=/home/hermes time.format="%H:%M:%S" date.format="%Y-%m-%d" memory.format="{used}/{total}" disk.format="{left}" -t dracula-powerline
+}
+
+set $background #101010
+set $foreground #ffffff
+set $secondary  #948E8E
+set $primary    #94B1F3
+set $tertiary   #948E8
